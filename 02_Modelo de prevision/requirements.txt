@@ -1,0 +1,28 @@
+
+## LIBRERIAS QUE HE INSTALADO ##
+
+pandas
+numpy
+matplotlib
+scikit-learn
+openpyxl
+requests
+holidays
+xgboost
+lightgbm
+shap
+python-dotenv
+
+# Pandas --> Sirve para trabajar con tablas de datos, como si fueran hojas de Excel.
+# Numpy --> Sirve para cálculos numéricos.
+# Matplotlib --> Sirve para generar gráficas.
+# Scikit-learn --> Sirve para crear modelos de machine learning y comprobar errores.
+# Openpyxl --> Sirve para leer y escribir archivos Excel.
+# Requests --> Sirve para conectarse a internet y descargar datos de APIs o páginas web.
+# Holidays --> Sirve para identificar festivos.
+# Xgboost --> Son modelos avanzados muy usados para predicción con datos tabulares.
+# Lightgbm --> Son modelos avanzados muy usados para predicción con datos tabulares.
+# Shap --> Sirve para explicar qué variables han influido más en la predicción. Esto será muy útil para defender el modelo ante el tribunal.
+# Python-dotenv --> Sirve para guardar claves o configuraciones sin meterlas directamente en el código.
+
+# En el terminal escribo pip install -r requirements.txt para instalarlas.

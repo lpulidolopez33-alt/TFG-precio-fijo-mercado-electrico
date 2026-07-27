@@ -1,0 +1,43 @@
+
+INSTRUCCIONES PARA USAR LA NUEVA APP DEL TFG
+============================================
+
+1) Copia estos archivos dentro de tu carpeta COMMODITY:
+   - app_tfg_luis.py
+   - carpeta assets completa
+   - requirements_app.txt
+   - lanzar_app_tfg.bat
+
+   La estructura debe quedar así:
+
+   COMMODITY/
+      app_tfg_luis.py
+      config.py
+      main.py
+      salidas/
+      datos/
+      assets/
+         style_tfg_luis.css
+      lanzar_app_tfg.bat
+
+2) Instala dependencias si hace falta:
+
+   pip install -r requirements_app.txt
+
+3) Ejecuta la app con doble clic en:
+
+   lanzar_app_tfg.bat
+
+   O desde terminal:
+
+   python app_tfg_luis.py
+
+4) Abre en el navegador:
+
+   http://127.0.0.1:8050/
+
+Notas importantes:
+- La app ejecuta el mismo main.py que ya tienes.
+- No elimina tu app.py ni app_dash.py actual.
+- Cierra los Excel de la carpeta salidas antes de ejecutar cálculos, porque si están abiertos Windows puede bloquear la escritura.
+- Si usas perfil no plano, la app hace el flujo: previsión base -> generar curva -> recalcular con curva.
